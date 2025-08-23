@@ -1,4 +1,4 @@
 # java_script_yt
 Restart
-JavaScript from yt
+JavaScript2.0 from yt
 Previous Javascript Lessions.
