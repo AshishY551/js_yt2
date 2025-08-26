@@ -6,3 +6,5 @@ worked on msit fork
 
 Welcome to my JavaScript 2.0 learning repo!
 This is where I practice, experiment, and build projects while following lessons from YouTube tutorials (Previous JavaScript lessons + JavaScript 2.0 upgrade).
+
+Document my learnings so I can track progress step by step
