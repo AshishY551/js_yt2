@@ -10,12 +10,11 @@ This is where I practice, experiment, and build projects while following lessons
 Document my learnings so I can track progress step by step
 
 
-#Roadmap
-
+#Roadmap:
 1.Revision Phase – Go through previous JavaScript lessons
-
 2.Upgrade Phase – Learn ES6+ and JavaScript 2.0 features
-
 3.Projects Phase – Build interactive projects using modern JS
-
 4.Mastery Phase – Explore advanced topics (APIs, async, OOP, etc.)
+
+#Motto:
+“Learn → Build → Break → Fix → Repeat”
