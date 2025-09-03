@@ -1,16 +1,7 @@
-feat: add JavaScript practice files for math, datetime, and testing
+feat: add JavaScript practice file for arrays
 
-- Added `12numsMaths.js`:
-  * Demonstrates core Math operations (round, ceil, floor, random, etc.)
-  * Covers number manipulation techniques for practice
+- Introduced `14Arrays.js` covering core array operations
+- Demonstrates creation, traversal, and manipulation methods
+- Includes examples of push, pop, shift, unshift, slice, splice, and iteration
+- Provides a foundation for practicing advanced array methods later (map, filter, reduce)
 
-- Added `13datetime.js`:
-  * Implements Date object usage (current date/time, formatting, extraction of day/month/year)
-  * Showcases practical datetime handling
-
-- Added `test.js`:
-  * Scratchpad file for running and testing small JavaScript snippets
-  * Serves as a utility file for verifying concepts before integration
-
-These additions expand the codebase with fundamental JS practice scripts 
-for learning and quick testing.
