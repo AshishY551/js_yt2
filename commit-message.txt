@@ -1,7 +1,7 @@
-feat: add JavaScript practice file for arrays
+feat: add JavaScript practice file for `this` keyword and arrow functions
 
-- Introduced `14Arrays.js` covering core array operations
-- Demonstrates creation, traversal, and manipulation methods
-- Includes examples of push, pop, shift, unshift, slice, splice, and iteration
-- Provides a foundation for practicing advanced array methods later (map, filter, reduce)
-
+- Added `23This&Arrow.js` to demonstrate usage of `this` in different contexts
+  (global scope, object methods, function calls, event handlers)
+- Compared traditional functions vs arrow functions and their `this` binding behavior
+- Included examples highlighting differences in lexical scope handling
+- Serves as a reference for mastering function contexts in JavaScript
