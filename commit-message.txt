@@ -1,7 +1,6 @@
-feat: add JavaScript practice file for `this` keyword and arrow functions
+feat: add JavaScript practice file for Immediately Invoked Function Expressions (IIFE)
 
-- Added `23This&Arrow.js` to demonstrate usage of `this` in different contexts
-  (global scope, object methods, function calls, event handlers)
-- Compared traditional functions vs arrow functions and their `this` binding behavior
-- Included examples highlighting differences in lexical scope handling
-- Serves as a reference for mastering function contexts in JavaScript
+- Introduced `24IIFE.js` demonstrating the structure and execution of IIFEs
+- Showcased use cases such as creating private scope and avoiding global variable pollution
+- Included examples of both anonymous and named IIFEs
+- Provides a foundation for modular and encapsulated JavaScript code patterns
