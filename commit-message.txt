@@ -1,6 +1,24 @@
-feat: add JavaScript practice file for Immediately Invoked Function Expressions (IIFE)
+"⚙️ Add JS Execution & Call Stack Concepts (25Execute&callstack.js)
 
-- Introduced `24IIFE.js` demonstrating the structure and execution of IIFEs
-- Showcased use cases such as creating private scope and avoiding global variable pollution
-- Included examples of both anonymous and named IIFEs
-- Provides a foundation for modular and encapsulated JavaScript code patterns
+- Documented JavaScript Execution Contexts
+  • Global Execution Context (window / this reference)
+  • Function Execution Context (new variable environment + execution thread)
+  • Eval Execution Context (property)
+
+- Explained JS Execution Phases
+  • Memory Creation Phase (variables/functions hoisted as undefined/definitions)
+  • Execution Phase (assignment & execution flow)
+
+- Added Detailed Example
+  • Step-by-step trace of function execution
+  • Memory allocation & execution cycle inside sandbox
+  • Demonstrated how new execution contexts are created & deleted
+
+- Covered Call Stack Mechanism
+  • Illustrated stack LIFO principle with nested function calls
+  • Visualized stack frames (Global → one() → two() → three())
+  • Added console snippet usage for debugging
+
+✅ Enhances clarity on JS internals  
+✅ Includes comments + diagrams for easier understanding  
+✅ Ready for learners to trace real execution flow"
