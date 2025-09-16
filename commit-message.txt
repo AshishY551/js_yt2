@@ -1,24 +1,30 @@
-"⚙️ Add JS Execution & Call Stack Concepts (25Execute&callstack.js)
+🔀 Add Control Flow examples with if-else & operators (26ifelse.js)
 
-- Documented JavaScript Execution Contexts
-  • Global Execution Context (window / this reference)
-  • Function Execution Context (new variable environment + execution thread)
-  • Eval Execution Context (property)
+- Introduced basic control flow structures:
+  • if, else-if, else statements
+  • Inline if statements for compact syntax (with caveat on readability)
 
-- Explained JS Execution Phases
-  • Memory Creation Phase (variables/functions hoisted as undefined/definitions)
-  • Execution Phase (assignment & execution flow)
+- Demonstrated key comparison & logical operators:
+  • <, >, <=, >=, !=
+  • == vs === (type coercion vs strict equality)
+  • !== strict inequality check
 
-- Added Detailed Example
-  • Step-by-step trace of function execution
-  • Memory allocation & execution cycle inside sandbox
-  • Demonstrated how new execution contexts are created & deleted
+- Showcased execution flow:
+  • true/false conditions
+  • Number vs string comparisons (2 == '2' ✅ / 2 === '2' ❌)
+  • Logical AND (&&) and OR (||) combinations for login validation
 
-- Covered Call Stack Mechanism
-  • Illustrated stack LIFO principle with nested function calls
-  • Visualized stack frames (Global → one() → two() → three())
-  • Added console snippet usage for debugging
+- Explained scope handling:
+  • let/const block scope (unavailable outside block)
+  • var function/global scope (accessible outside block → unsafe)
 
-✅ Enhances clarity on JS internals  
-✅ Includes comments + diagrams for easier understanding  
-✅ Ready for learners to trace real execution flow"
+- Added practical examples:
+  • Temperature check (< 50 vs > 50)
+  • Score & power variable scoping issue
+  • Balance validation with multiple conditions
+  • User authentication logic (login + debit card + multiple login methods)
+
+✅ Enhances understanding of JS control flow  
+✅ Covers operator differences with clear console outputs  
+✅ Highlights best practices (avoid inline one-liners, prefer const/let over var)"
+
