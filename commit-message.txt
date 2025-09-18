@@ -1,30 +1,21 @@
-🔀 Add Control Flow examples with if-else & operators (26ifelse.js)
+🔀 Add switch-case control flow examples (26switchcase.js)
 
-- Introduced basic control flow structures:
-  • if, else-if, else statements
-  • Inline if statements for compact syntax (with caveat on readability)
+- Implemented switch-case structure for clean conditional branching
+- Demonstrated integer-based switch:
+  • Example: month = 3 → outputs 'March'
+  • Explained behavior when `break` is omitted (fall-through execution)
+  • Highlighted execution flow after first match until a break is found
 
-- Demonstrated key comparison & logical operators:
-  • <, >, <=, >=, !=
-  • == vs === (type coercion vs strict equality)
-  • !== strict inequality check
+- Added string-based switch example:
+  • Example: month2 = 'march' (case-sensitive check)
+  • Illustrated mismatch due to lowercase vs uppercase ('march' vs 'March')
+  • Default branch handling → outputs 'april'
 
-- Showcased execution flow:
-  • true/false conditions
-  • Number vs string comparisons (2 == '2' ✅ / 2 === '2' ❌)
-  • Logical AND (&&) and OR (||) combinations for login validation
+- Key learnings captured:
+  • `switch` is case-sensitive for string comparisons
+  • Missing `break` executes subsequent cases (fall-through)
+  • `default` acts as fallback when no match is found
 
-- Explained scope handling:
-  • let/const block scope (unavailable outside block)
-  • var function/global scope (accessible outside block → unsafe)
-
-- Added practical examples:
-  • Temperature check (< 50 vs > 50)
-  • Score & power variable scoping issue
-  • Balance validation with multiple conditions
-  • User authentication logic (login + debit card + multiple login methods)
-
-✅ Enhances understanding of JS control flow  
-✅ Covers operator differences with clear console outputs  
-✅ Highlights best practices (avoid inline one-liners, prefer const/let over var)"
-
+✅ Enhances 04controlFlow module with practical switch-case scenarios  
+✅ Demonstrates both numeric & string-based condition handling  
+✅ Highlights common pitfalls (case sensitivity & missing break)
