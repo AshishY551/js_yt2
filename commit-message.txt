@@ -1,21 +1,22 @@
-🔀 Add switch-case control flow examples (26switchcase.js)
+✨ Add Lecture 26 JS examples: Truthy/Falsy, Nullish Coalescing & Ternary (26truthy.js)
 
-- Implemented switch-case structure for clean conditional branching
-- Demonstrated integer-based switch:
-  • Example: month = 3 → outputs 'March'
-  • Explained behavior when `break` is omitted (fall-through execution)
-  • Highlighted execution flow after first match until a break is found
+- Added `26truthy.js` covering key JavaScript concepts:
+  🔹 **Truthy vs Falsy values**
+      • Falsy (8 total): false, 0, -0, 0n (BigInt), "" (empty string), null, undefined, NaN  
+      • Truthy: all other values (examples: '0', 'false', ' ', [], {}, function(){})  
 
-- Added string-based switch example:
-  • Example: month2 = 'march' (case-sensitive check)
-  • Illustrated mismatch due to lowercase vs uppercase ('march' vs 'March')
-  • Default branch handling → outputs 'april'
+  🔹 **Conditional checks**
+      • Equality quirks: (false == 0), (false == ""), (0 == "")  
+      • Array emptiness check → `usermail.length === 0`  
+      • Object emptiness check → `Object.keys(obj).length === 0`  
 
-- Key learnings captured:
-  • `switch` is case-sensitive for string comparisons
-  • Missing `break` executes subsequent cases (fall-through)
-  • `default` acts as fallback when no match is found
+  🔹 **Nullish Coalescing Operator (??)**
+      • Handles `null` or `undefined` gracefully with default fallback  
+      • Examples: `null ?? 10 → 10`, `undefined ?? 15 → 15`, `null ?? undefined ?? 25 → 25`  
 
-✅ Enhances 04controlFlow module with practical switch-case scenarios  
-✅ Demonstrates both numeric & string-based condition handling  
-✅ Highlights common pitfalls (case sensitivity & missing break)
+  🔹 **Ternary Operator**
+      • Short-hand conditional evaluation:  
+        `teaprice <= 80 ? "less than 80" : "more than 80"`  
+
+- 📚 Code comments document lecture notes and last 4 min revision summary.  
+- ✅ Serves as a handy reference for JS evaluation behavior, conditional operators, and edge cases.
