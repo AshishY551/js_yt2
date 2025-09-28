@@ -1,22 +1,24 @@
-✨ Add Lecture 26 JS examples: Truthy/Falsy, Nullish Coalescing & Ternary (26truthy.js)
+🔁 Add Iterators module with loop examples (27Loops.js)
 
-- Added `26truthy.js` covering key JavaScript concepts:
-  🔹 **Truthy vs Falsy values**
-      • Falsy (8 total): false, 0, -0, 0n (BigInt), "" (empty string), null, undefined, NaN  
-      • Truthy: all other values (examples: '0', 'false', ' ', [], {}, function(){})  
+- Created new folder **05Iterators/** for iteration-related concepts.  
+- Added **27Loops.js** demonstrating JavaScript looping constructs:  
 
-  🔹 **Conditional checks**
-      • Equality quirks: (false == 0), (false == ""), (0 == "")  
-      • Array emptiness check → `usermail.length === 0`  
-      • Object emptiness check → `Object.keys(obj).length === 0`  
+  🔹 **For Loop Basics**  
+      • Iterating numbers from 0 to 10.  
+      • Special case handling with conditional check (`i == 5`).  
 
-  🔹 **Nullish Coalescing Operator (??)**
-      • Handles `null` or `undefined` gracefully with default fallback  
-      • Examples: `null ?? 10 → 10`, `undefined ?? 15 → 15`, `null ?? undefined ?? 25 → 25`  
+  🔹 **Nested For Loops**  
+      • Example with outer + inner loop.  
+      • Prints multiplication table values with contextual messages.  
 
-  🔹 **Ternary Operator**
-      • Short-hand conditional evaluation:  
-        `teaprice <= 80 ? "less than 80" : "more than 80"`  
+  🔹 **Array Iteration**  
+      • Loops through string array `["Flash","bat","ball"]`.  
+      • Shows array length usage + element access by index.  
 
-- 📚 Code comments document lecture notes and last 4 min revision summary.  
-- ✅ Serves as a handy reference for JS evaluation behavior, conditional operators, and edge cases.
+  🔹 **Break & Continue Usage**  
+      • `continue` skips iteration when `i == 2`.  
+      • `break` stops loop when `i == 5`.  
+      • Helps explain control flow inside loops.  
+
+- ✅ Serves as foundation for deeper iterator concepts (for...of, for...in, while, do-while).  
+- 📘 Lecture27 continuation with clear examples for practical learning.
