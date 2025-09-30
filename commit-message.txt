@@ -1,24 +1,16 @@
-🔁 Add Iterators module with loop examples (27Loops.js)
+➿ Add while and do...while loop examples (28While.js)
 
-- Created new folder **05Iterators/** for iteration-related concepts.  
-- Added **27Loops.js** demonstrating JavaScript looping constructs:  
+- Introduced **28While.js** under `05Iterators/` to expand iteration concepts.  
+- Covered multiple loop variations with practical examples:  
 
-  🔹 **For Loop Basics**  
-      • Iterating numbers from 0 to 10.  
-      • Special case handling with conditional check (`i == 5`).  
+  🔹 **While Loop**  
+      • Prints even numbers up to 10 using an incremental counter.  
+      • Iterates through `myarray=['falsh','bat','ball']` using index-based while loop.  
 
-  🔹 **Nested For Loops**  
-      • Example with outer + inner loop.  
-      • Prints multiplication table values with contextual messages.  
+  🔹 **Do...While Loop**  
+      • Demonstrates loop execution at least once regardless of condition.  
+      • Example with `score=1` runs until <= 10.  
+      • Example with `score1=11` proves condition check happens after first execution.  
 
-  🔹 **Array Iteration**  
-      • Loops through string array `["Flash","bat","ball"]`.  
-      • Shows array length usage + element access by index.  
-
-  🔹 **Break & Continue Usage**  
-      • `continue` skips iteration when `i == 2`.  
-      • `break` stops loop when `i == 5`.  
-      • Helps explain control flow inside loops.  
-
-- ✅ Serves as foundation for deeper iterator concepts (for...of, for...in, while, do-while).  
-- 📘 Lecture27 continuation with clear examples for practical learning.
+- ✅ Enhances iterator module with conditional and post-condition loop structures.  
+- 📘 Lecture28 continuation with emphasis on practical usage and control flow.
